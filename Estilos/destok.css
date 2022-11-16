@@ -1,0 +1,128 @@
+/*Colores
+Gris :      #f3f3f3;
+Verde:      #6cb500;
+Gris Menu : #f3f3f3;
+*/
+body{
+    font-family: 'Arimo';
+}
+*{
+    box-sizing: border-box;
+}
+.ancho{
+    max-width: 1200px;
+     margin: auto;
+}
+
+/*Header*/
+.contheader{
+ 
+    display: flex;
+}
+.contheader figure{
+    width: 700px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contheader figure img{
+    margin: auto;
+    width: 200px;
+    display: inline-block;
+}
+.barras{
+    color:#6cb500;
+    font-size: 25px;
+    margin: auto;
+    display: none;
+}
+.contheader nav{
+    max-width: 500px;
+    display: flex;
+}
+.contheader ul{
+    list-style: none;
+
+}
+.contheader ul li{
+    display: inline-block;
+    margin: 5px;
+
+}
+.contheader ul li a{
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    color: black
+}
+/*Fin Header*/
+/*Parte #1*/
+.parte1{
+    background-image: url(../imagenes/foto_slide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.parte1{
+    color: white;
+    padding-left: 50px;
+}
+/*Fin Parte #1*/
+/*Parte #2*/
+.parte2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.parte2 h3{
+    color: #6cb500;
+}
+.parte2 p{
+    color: black;
+}
+.art3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 60px;
+}
+.art1{
+    width: 350px;
+    background: #f3f3f3 ;
+    border-radius: 20px;
+}
+.art1 figure{
+    margin: auto;
+    width: 100px;
+    padding: 0%;
+}
+.art1 figure img{
+    width: 100px;
+    margin: 0%;
+    padding: 0%;
+}
+.art1 h3{
+    color: #6cb500;
+}
+.art1 p{
+    padding: 15px;
+}
+/*Fin Parte #2*/
+/*Footer*/
+footer{
+    background-color: #6cb500;
+}
+footer figure{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+footer figure img{
+    width: 100%;
+    margin: auto;
+}
+/*Fin Footer*/
